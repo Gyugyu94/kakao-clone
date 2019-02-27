@@ -1,0 +1,125 @@
+.chat-body {
+  padding-bottom: 0;
+}
+.chat-top-header {
+  background-color: #a1c0d6;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat-top-header span {
+  font-weight: 600;
+}
+
+.chat-top-header a {
+  color: black;
+}
+
+.chat {
+  background-color: #a1c0d6;
+  height: 100vh;
+}
+
+.chat .date-divider {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat .chat__message-from-me {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.chat__message-from-me .chat__message-body {
+  align-items: center;
+  background: yellow;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.chat__message-from-me .chat__message-time {
+  display: flex;
+  align-items: flex-end;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat .chat__message-to-me {
+  padding: 8px;
+  display: flex;
+}
+
+.chat__message-to-me img {
+  height: 35px;
+  border-radius: 50%;
+  padding-right: 8px;
+}
+.chat__message-body {
+  font-weight: 500;
+}
+.chat__message-to-me .chat__message-body {
+  background-color: #ffffff;
+  padding: 10px 10px 10px 5px;
+  margin-top: 3px;
+  margin-left: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.chat__message-center {
+  display: flex;
+  flex-direction: column;
+}
+.chat__message-username {
+  font-size: 12px;
+  font-weight: 600;
+}
+.chat__message-to-me .chat__message-time {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.type-message {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 45px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.type-message .fa-plus {
+  color: #b4b4b4;
+}
+
+.type-message__input {
+  align-items: center;
+  width: 90%;
+}
+.type-message__input input {
+  padding: 5px;
+  width: 80%;
+}
+
+.type-message__input .fa-smile {
+  position: relative;
+  right: 25px;
+}
+.type-message__input .fa-microphone {
+  background-color: #ffe934;
+  padding: 10px;
+  position: relative;
+  right: 20px;
+}
